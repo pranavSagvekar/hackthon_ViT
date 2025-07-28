@@ -18,14 +18,14 @@
   "author": "pranav",
   "type": "module",
   "main": "index.js",
-  
   "scripts": {
     "dev": "nodemon index.js",
     "start": " nodemon lite-server"
-
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
     "nodemon": "^3.1.10"
   }
 }

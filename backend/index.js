@@ -1,27 +1,19 @@
-import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import express from "express";
+import cors from "cors";
+import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
-// For ES Modules path support
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+app.use(cors());
+app.use(bodyParser.json());
 
-// Middleware to parse JSON
-app.use(express.json());
-
-// ✅ Serve frontend folder statically
-app.use(express.static(path.join(__dirname, '../frontend')));
-
-// ✅ POST API route
-app.post('/api/submit', (req, res) => {
-  const { commodity } = req.body;
-  console.log('Received commodity:', commodity);
-  res.json({ message: `Received ${commodity}` });
+app.post("/api/submit", (req, res) => {
+  const { date, city, type, commodity } = req.body;
+  console.log("Received Data:", req.body);
+  res.json({ message: "Data received successfully!" });
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
 });

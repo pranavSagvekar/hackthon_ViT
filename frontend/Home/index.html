@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="head">
+    Home
+
+Contact
+
+About
+
+
+  </div>
+  <h2>Select Commodity Data</h2>
+  <form id="dataForm">
+    <label>Date:</label>
+    <input type="date" id="date" required><br>
+
+    <label>City:</label>
+    <select id="city" required>
+      <option value="">Select City</option>
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Nagpur">Nagpur</option>
+      <option value="Sambhaji Nagar">Sambhaji Nagar</option>
+      <option value="Nashik">Nashik</option>
+    </select><br>
+
+    <label>Type:</label>
+    <select id="type" required onchange="updateCommodityOptions()">
+      <option value="">Select Type</option>
+      <option value="Vegetable">Vegetable</option>
+      <option value="Fruit">Fruit</option>
+    </select><br>
+
+    <label>Commodity:</label>
+    <select id="commodity" required></select><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="response"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
