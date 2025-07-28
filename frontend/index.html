@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agri Price Prediction</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Commodity Price Submission</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label, input, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    input {
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #response {
+      margin-top: 20px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
 </head>
 <body>
-  <h1>🌾 Agri Price Prediction Tool</h1>
-  <button onclick="fetchData()">Fetch Data from Backend</button>
-  <p id="result">Click the button to see backend response.</p>
+  <h1>Submit Commodity</h1>
+
+  <label for="commodity">Commodity Name:</label>
+  <input type="text" id="commodity" placeholder="e.g. Onion, Tomato" />
+
+  <button onclick="sendData()">Submit</button>
+
+  <div id="response"></div>
 
   <script src="script.js"></script>
 </body>
