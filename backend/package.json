@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "project",
+  "keywords": [
+    "backend",
+    "vit"
+  ],
+  "homepage": "https://github.com/pranavSagvekar/hackthon_ViT#readme",
+  "bugs": {
+    "url": "https://github.com/pranavSagvekar/hackthon_ViT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavSagvekar/hackthon_ViT.git"
+  },
+  "license": "ISC",
+  "author": "pranav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "lite-server"
+
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
