@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "animejs": "^4.1.2",
+    "nodemon": "^3.1.10"
   }
 }
