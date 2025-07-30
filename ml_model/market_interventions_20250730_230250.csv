@@ -1,0 +1,3 @@
+Commodity,Current_Avg_Price,Predicted_Max_Price,Predicted_Avg_Price,Predicted_Min_Price,Max_Price_Increase_Pct,Avg_Price_Increase_Pct,Price_Volatility,Intervention_Needed,Urgency_Level,Recommendation,Districts_Affected,Risk_Score
+Banana,12.2,23.9,19.55,15.29,95.93,60.22,21.61,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,4,117.54
+Papaya,15.35,20.74,18.92,17.15,35.14,23.29,7.04,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,5,42.18
