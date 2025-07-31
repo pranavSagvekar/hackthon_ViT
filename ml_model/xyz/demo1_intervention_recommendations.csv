@@ -1,4 +1,0 @@
-Commodity,Current_Avg_Price,Max_Predicted_Price,Avg_Predicted_Price,Max_Price_Increase_Pct,Avg_Price_Increase_Pct,Intervention_Needed,Urgency_Level,Recommendation,Districts_Affected
-Tomato,14.12,24.7,24.64,74.97,74.52,True,HIGH,RELEASE BUFFER STOCK,5
-Guava,32.3,39.96,39.65,23.72,22.74,True,MEDIUM,RELEASE BUFFER STOCK,5
-Apple,91.33,111.5,111.5,22.08,22.08,True,MEDIUM,RELEASE BUFFER STOCK,5
