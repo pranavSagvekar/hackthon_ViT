@@ -1,0 +1,6 @@
+Commodity,Current_Avg_Price,Predicted_Max_Price,Predicted_Avg_Price,Predicted_Min_Price,Max_Price_Increase_Pct,Avg_Price_Increase_Pct,Price_Volatility,Intervention_Needed,Urgency_Level,Recommendation,Districts_Affected,Risk_Score
+Cabbage,10.62,331.04,176.4,23.85,3018.6,1561.83,882.04,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,5,3900.64
+Potato,13.68,416.71,223.57,30.45,2945.38,1533.9,860.05,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,5,3805.44
+Onion,11.37,345.08,185.24,25.36,2934.13,1528.69,856.4,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,5,3790.53
+Tomato,30.38,44.04,41.83,36.49,44.95,37.66,5.36,True,🔴 HIGH,IMMEDIATE BUFFER STOCK RELEASE,5,50.31
+Papaya,14.27,17.16,16.61,16.07,20.25,16.4,2.35,True,🟡 MEDIUM,PREPARE BUFFER STOCK RELEASE,3,22.6
